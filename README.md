@@ -1,125 +1,33 @@
-# Personal Portfolio Website
+# Nidhi Yadav - Portfolio
 
-A responsive personal portfolio website showcasing skills, projects, and contact information with modern design and interactive features.
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen)](https://nidhi120804.github.io/Portfolio-/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5)](https://www.linkedin.com/in/nidhi-yadav-6584a6317/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717)](https://github.com/Nidhi120804)
+
+A modern, responsive portfolio website showcasing my journey as a full-stack developer.
+
+## Overview
+
+This portfolio represents my professional presence on the web, featuring my projects, skills, and experience. Built with a focus on clean design and optimal user experience across all devices.
 
 ## Features
 
-- **Responsive Design**: Fully responsive layout that works on desktop, tablet, and mobile devices
-- **Modern UI/UX**: Clean and professional design with smooth animations and transitions
-- **Interactive Navigation**: Sticky header with smooth scrolling navigation
-- **Animated Elements**: Scroll reveal animations and typing effect for dynamic content presentation
-- **Contact Form**: Functional contact form with client-side validation
-- **Portfolio Gallery**: Interactive project showcase with hover effects
-- **Social Media Integration**: Links to various social media profiles
+- **Responsive Design** - Seamless experience across desktop, tablet, and mobile devices
+- **Interactive UI** - Smooth animations and dynamic content presentation
+- **Project Showcase** - Detailed presentation of key projects and achievements
+- **Contact Integration** - Direct communication through integrated contact form
 
-## Technologies Used
+## Tech Stack
 
-- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
-- **Styling**: Custom CSS with CSS variables for theming
-- **Animations**: ScrollReveal.js for scroll animations
-- **Typography**: Typed.js for animated text effects
-- **Icons**: Boxicons icon library
-- **Backend**: PHP for form handling
+- HTML5, CSS3, JavaScript
+- ScrollReveal.js for animations
+- Typed.js for dynamic text effects
+- PHP for backend functionality
 
-## Project Structure
+## Connect
 
-```
-Portfolio-/
-├── client/                           # Frontend application
-│   ├── index.html                   # Main HTML file
-│   ├── style.css                    # Main stylesheet
-│   ├── script.js                    # JavaScript functionality
-│   └── assets/                      # Static assets
-│       ├── images/                  # Image files
-│       │   ├── profile.jpg          # Profile picture
-│       │   ├── project-cms.jpg      # CMS project screenshot
-│       │   ├── project-timesheet.jpg# Timesheet app screenshot
-│       │   ├── project-phonemd.jpg  # PhoneMD project screenshot
-│       │   ├── project-school.jpg   # School website screenshot
-│       │   ├── project-ghost.jpg    # Ghost website screenshot
-│       │   └── project-templates.jpg# Templates project screenshot
-│       └── documents/               # Document files
-│           └── CV.pdf              # Curriculum Vitae
-├── server/                          # Backend API
-│   └── protfolio.php               # PHP form handler
-└── README.md                       # Project documentation
-```
+Feel free to explore my work and connect with me through the portfolio's contact section or via [LinkedIn](https://www.linkedin.com/in/nidhi-yadav-6584a6317/).
 
-## Sections
+---
 
-1. **Home**: Introduction with animated text and social media links
-2. **About**: Personal information and background
-3. **Services**: List of services and skills offered
-4. **Portfolio**: Showcase of completed projects
-5. **Contact**: Contact form and information
-
-## Setup and Installation
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd Portfolio-
-   ```
-
-2. **Frontend Setup:**
-   - Navigate to the client folder: `cd client`
-   - Open `index.html` in a web browser or serve through a local server
-   - All frontend assets are organized in the `client/assets/` directory
-
-3. **Backend Setup:**
-   - Ensure PHP is configured on your server
-   - The PHP backend files are in the `server/` directory
-   - Configure your web server to handle PHP requests to the server folder
-
-## Form Validation
-
-The contact form includes comprehensive client-side validation:
-- Email format validation
-- Phone number validation (10 digits)
-- Message length validation (minimum 30 characters)
-- Real-time error messaging
-
-## Responsive Breakpoints
-
-- Desktop: 1200px and above
-- Tablet: 768px - 1199px
-- Mobile: 767px and below
-- Small mobile: 450px and below
-
-## Browser Support
-
-- Chrome (recommended)
-- Firefox
-- Safari
-- Edge
-
-## Performance Features
-
-- Optimized images
-- Efficient CSS animations
-- Minimal JavaScript footprint
-- Fast loading times
-
-## Customization
-
-To customize the portfolio for your own use:
-
-1. Update personal information in `index.html`
-2. Replace images in the `images/` directory
-3. Modify color scheme in CSS variables (`:root` section in `style.css`)
-4. Update social media links
-5. Add your own projects to the portfolio section
-
-## Contact Form Backend
-
-The contact form is configured to work with PHP. Ensure your server supports PHP and update the form action URL in `index.html` as needed.
-
-## License
-
-This project is open source and available under the MIT License.
-
-## Credits
-
-- **Developer**: Nidhi Yadav
-- **Icons**: Boxicons
-- **Animations**: ScrollReveal.js, Typed.js
+© 2024 Nidhi Yadav. All rights reserved.
