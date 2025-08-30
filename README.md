@@ -1,6 +1,6 @@
 # Nidhi Yadav - Portfolio
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen)](https://nidhi120804.github.io/Portfolio-/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen)](https://portfolio-git-main-nidhi-yadavs-projects-9ea45069.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5)](https://www.linkedin.com/in/nidhi-yadav-6584a6317/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717)](https://github.com/Nidhi120804)
 
