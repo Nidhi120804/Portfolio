@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header design    -->
+    <header class="header">
+        <a href="#" class="logo">MY PERSONAL PORTFOLIO</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Nidhi Yadav</h1>
+            <!-- <h3>And I'm a<span> Frontend Developer</span></h3> -->
+              <!-- for animation multi text -->
+            <h3>And I'm a <span class="multi-text"></span></h3>
+            <p>Passionate full-stack developer specializing in modern web technologies including HTML5, CSS3, JavaScript, and PHP.
+                Experienced in building responsive websites with database integration using MySQL and contemporary development tools.
+
+            </p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/nidhi-yadav-6584a6317/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Nidhi120804/"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="./assets/documents/NidhiYadav_Resume.pdf" download="NidhiYadav_Resume" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <div class="glowing-circle">
+                <!-- <img src="images/edited1.jpg" alt=""> -->
+                <span></span>
+                <div class="image">
+                    <img src="assets/images/profile.jpg" alt="Profile Picture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading" style="text-align: center;">About <span>Me</span></h2>
+            <br> <br> 
+            <h3>Full Stack Web Developer</h3>
+            <p>
+                I am Nidhi Yadav, a passionate web developer currently pursuing my B.Tech in Computer Science and Engineering 
+                at Noida Institute of Engineering and Technology, Greater Noida with a CGPA of 7.5. I completed my Diploma in Computer Science and Engineering 
+                from Government Girls Polytechnic, Meza, Prayagraj (2020-2023).
+            </p>
+            <p>
+                <strong>Programming Languages:</strong> HTML, CSS, JavaScript, C, Python, SQL
+            </p>
+            <p>
+                <strong>Database:</strong> MySQL, SQL
+            </p>
+            <p>
+                <strong>Tools & Frameworks:</strong> Bootstrap, Django, VS Code, PyCharm
+            </p>
+            <p>
+                <strong>Soft Skills:</strong> Time Management, Leadership, Communication
+            </p>
+            <p>
+                <strong>Certifications:</strong>
+            </p>
+            <div style="margin-left: 20px; margin-bottom: 20px;">
+                <p style="margin: 15px 0; color: #bbb; font-size: 16px; line-height: 1.6;">
+                    • Web Development using Python with Django - Techpile Technology Pvt Ltd
+                </p>
+                <p style="margin: 15px 0; color: #bbb; font-size: 16px; line-height: 1.6;">
+                    • Java Programming - Internpe Pvt Ltd
+                </p>
+                <p style="margin: 15px 0; color: #bbb; font-size: 16px; line-height: 1.6;">
+                    • Data Structures - Coursera
+                </p>
+            </div>
+            <p>
+                I specialize in building responsive web applications and have hands-on experience with both frontend and backend technologies. 
+                With certified expertise in web development using Python and Django, along with strong foundations in data structures and Java programming, 
+                I create comprehensive solutions that blend modern design with robust functionality. My recent projects include an Assignment Management System using Django and this Personal Portfolio website.
+            </p>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-card">
+                <div class="card-image-container">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&h=300&fit=crop&auto=format" alt="Personal Portfolio Website" loading="lazy">
+                    <div class="card-badge featured">Featured</div>
+                    <div class="card-category">Web Development</div>
+                </div>
+                <div class="card-content">
+                    <div class="card-meta">
+                        <span class="card-date">December 2024</span>
+                        <span class="card-read-time">• Live Project</span>
+                    </div>
+                    <h3 class="card-title">Personal Portfolio Website</h3>
+                    <p class="card-description">Modern responsive portfolio website built with HTML5, CSS3, and JavaScript. Features smooth animations, contact form, and dynamic content.</p>
+                    <div class="card-footer">
+                        <div class="card-author">
+                            <span>Nidhi Yadav</span>
+                        </div>
+                        <a href="https://github.com/Nidhi120804/Portfolio-" target="_blank" class="card-link">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-card">
+                <div class="card-image-container">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop&auto=format" alt="E-Commerce Platform" loading="lazy">
+                    <div class="card-badge featured">Featured</div>
+                    <div class="card-category">Full Stack</div>
+                </div>
+                <div class="card-content">
+                    <div class="card-meta">
+                        <span class="card-date">Coming Soon</span>
+                        <span class="card-read-time">• In Development</span>
+                    </div>
+                    <h3 class="card-title">E-Commerce Platform</h3>
+                    <p class="card-description">Full-stack e-commerce solution with product catalog, shopping cart, and secure payment integration using React and Node.js.</p>
+                    <div class="card-footer">
+                        <div class="card-author">
+                            <span>Nidhi Yadav</span>
+                        </div>
+                        <a href="#" class="card-link disabled">
+                            <i class='bx bx-time-five'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-card">
+                <div class="card-image-container">
+                    <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop&auto=format" alt="Task Management App" loading="lazy">
+                    <div class="card-badge featured">Featured</div>
+                    <div class="card-category">Django App</div>
+                </div>
+                <div class="card-content">
+                    <div class="card-meta">
+                        <span class="card-date">Coming Soon</span>
+                        <span class="card-read-time">• In Development</span>
+                    </div>
+                    <h3 class="card-title">Task Management System</h3>
+                    <p class="card-description">Collaborative task management application with real-time updates, team features, and progress tracking built with Django and PostgreSQL.</p>
+                    <div class="card-footer">
+                        <div class="card-author">
+                            <span>Nidhi Yadav</span>
+                        </div>
+                        <a href="#" class="card-link disabled">
+                            <i class='bx bx-time-five'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- contact section design -->
+ <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <form action="../server/protfolio.php" method="post">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name" name="name">
+            <input type="email" placeholder="Email Address" name="email" id="mail-id" onkeyup="validateMail()">
+            <span id="mail-error"></span>
+        </div>
+        <div class="input-box">
+            <input type="tel" placeholder="Mobile Number" name="number" id="phone-id" onkeyup="validatePhone()">
+            <span id="phone-error"></span>
+            <input type="text" placeholder="Email Subject" name="subject">
+            <textarea name="message" id="sms-id" placeholder="Your Message" onkeyup="validateSms()"></textarea>
+            <span id="sms-error"></span>
+        </div>
+        <input id="btnform"  type="submit" onclick="abcd()" value="Send Message" class="btn">
+        <!-- <input type="submit" value="Send Message" class="btn" onclick="return validateForm()"> -->
+        <div class="submiterror">
+        <span id="submit-error"></span>
+    </div>
+    </form>
+</section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Nidhi Yadav | All Rights Reserved.|</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- Scroll Reveal -->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- <script>
+
+        function abcd(){
+          
+            window.location = "https://translate.google.com/";
+           alert("Thankyou.")
+        }
+    </script> -->
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+    <!-- Javascript -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>

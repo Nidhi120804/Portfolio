@@ -25,12 +25,24 @@ A responsive personal portfolio website showcasing skills, projects, and contact
 
 ```
 Portfolio-/
-├── index.html          # Main HTML file
-├── style.css           # Main stylesheet
-├── script.js           # JavaScript functionality
-├── images/             # Image assets
-├── Documents/          # CV and documents
-└── README.md          # Project documentation
+├── client/                           # Frontend application
+│   ├── index.html                   # Main HTML file
+│   ├── style.css                    # Main stylesheet
+│   ├── script.js                    # JavaScript functionality
+│   └── assets/                      # Static assets
+│       ├── images/                  # Image files
+│       │   ├── profile.jpg          # Profile picture
+│       │   ├── project-cms.jpg      # CMS project screenshot
+│       │   ├── project-timesheet.jpg# Timesheet app screenshot
+│       │   ├── project-phonemd.jpg  # PhoneMD project screenshot
+│       │   ├── project-school.jpg   # School website screenshot
+│       │   ├── project-ghost.jpg    # Ghost website screenshot
+│       │   └── project-templates.jpg# Templates project screenshot
+│       └── documents/               # Document files
+│           └── CV.pdf              # Curriculum Vitae
+├── server/                          # Backend API
+│   └── protfolio.php               # PHP form handler
+└── README.md                       # Project documentation
 ```
 
 ## Sections
@@ -49,9 +61,15 @@ Portfolio-/
    cd Portfolio-
    ```
 
-2. Open `index.html` in a web browser or serve through a local server
+2. **Frontend Setup:**
+   - Navigate to the client folder: `cd client`
+   - Open `index.html` in a web browser or serve through a local server
+   - All frontend assets are organized in the `client/assets/` directory
 
-3. For full functionality (contact form), ensure PHP is configured on your server
+3. **Backend Setup:**
+   - Ensure PHP is configured on your server
+   - The PHP backend files are in the `server/` directory
+   - Configure your web server to handle PHP requests to the server folder
 
 ## Form Validation
 
